@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rólunk - FinomOtthon</title>
+    <meta name="description" content="Ismerd meg a FinomOtthon csapatát és küldetését.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#D32F2F',
+                        secondary: '#388E3C',
+                        background: '#FAFAFA',
+                        text: '#212121',
+                    },
+                    fontFamily: {
+                        sans: ['Lato', 'sans-serif'],
+                        serif: ['Playfair Display', 'serif'],
+                        inter: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-background text-text flex flex-col min-h-screen">
+    <nav class="bg-white shadow-md sticky top-0 z-40">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-serif font-bold text-primary">FinomOtthon</a>
+            <div class="hidden md:flex space-x-6 font-medium">
+                <a href="index.html" class="hover:text-primary transition">Főoldal</a>
+                <a href="#" class="hover:text-primary transition">Karácsony</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container mx-auto px-4 py-12 max-w-3xl">
+        <h1 class="text-4xl font-serif font-bold mb-6 text-primary">Rólunk</h1>
+        <div class="prose max-w-none text-gray-700 leading-relaxed">
+            <p class="mb-4">Üdvözöljük a <strong>FinomOtthon</strong> oldalán! Célunk, hogy visszahozzuk a magyar konyha hagyományos ízeit a modern otthonokba, egy csipetnyi ünnepi varázslattal fűszerezve.</p>
+            <p class="mb-4">Hiszünk abban, hogy a főzés nem csupán ételkészítés, hanem a szeretet kifejezésének egyik legszebb formája. Legyen szó egy klasszikus karácsonyi halászléről vagy egy gyors hétköznapi vacsoráról, receptjeinket úgy válogattuk össze, hogy azok kezdők és haladók számára is sikerélményt nyújtsanak.</p>
+            <h2 class="text-2xl font-bold mt-8 mb-4">Küldetésünk</h2>
+            <p class="mb-4">Szeretnénk megőrizni nagymamáink receptjeit, miközben alkalmazkodunk a mai kor igényeihez – legyen szó egészségesebb hozzávalókról vagy időtakarékos megoldásokról.</p>
+            <h2 class="text-2xl font-bold mt-8 mb-4">Csapatunk</h2>
+            <p class="mb-4">A FinomOtthon mögött lelkes gasztronómiai rajongók állnak, akik szenvedélye a sütés-főzés és a közösségépítés.</p>
+        </div>
+    </main>
+
+    <footer class="bg-gray-900 text-white py-8 mt-auto">
+        <div class="container mx-auto px-4 text-center">
+            <p>&copy; 2024 FinomOtthon. Minden jog fenntartva.</p>
+        </div>
+    </footer>
+</body>
+</html>

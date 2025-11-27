@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 <html lang="hu">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FinomOtthon - Karácsonyi Receptek és Ünnepi Finomságok</title>
-    <meta name="description" content="A legjobb karácsonyi receptek, sütemények és ünnepi ételek egy helyen. Fedezd fel a FinomOtthon kínálatát!">
-    
+    <meta name="description"
+        content="A legjobb karácsonyi receptek, sütemények és ünnepi ételek egy helyen. Fedezd fel a FinomOtthon kínálatát!">
+
+    <!-- Google AdSense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-YOUR_ID_HERE"
+        crossorigin="anonymous"></script>
+
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -27,10 +33,11 @@
             }
         }
     </script>
-    
+
     <!-- Custom Styles -->
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body class="bg-background text-text flex flex-col min-h-screen">
 
     <!-- Navigation -->
@@ -59,12 +66,18 @@
     <!-- Hero Section -->
     <header class="container mx-auto px-4 py-6">
         <div class="relative rounded-2xl overflow-hidden shadow-xl h-[400px] md:h-[500px]">
-            <img src="https://images.unsplash.com/photo-1576618148400-f54bed99fcfd?q=80&w=2080&auto=format&fit=crop" alt="Karácsonyi Ünnepi Asztal" class="absolute inset-0 w-full h-full object-cover">
-            <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex flex-col justify-end p-6 md:p-10">
-                <span class="bg-secondary text-white px-3 py-1 rounded-full text-sm font-bold w-fit mb-3">Szezonális Ajánlat</span>
+            <img src="https://images.unsplash.com/photo-1576618148400-f54bed99fcfd?q=80&w=2080&auto=format&fit=crop"
+                alt="Karácsonyi Ünnepi Asztal" class="absolute inset-0 w-full h-full object-cover">
+            <div
+                class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex flex-col justify-end p-6 md:p-10">
+                <span class="bg-secondary text-white px-3 py-1 rounded-full text-sm font-bold w-fit mb-3">Szezonális
+                    Ajánlat</span>
                 <h1 class="text-3xl md:text-5xl text-white font-bold mb-4">A Tökéletes Karácsonyi Menü</h1>
-                <p class="text-gray-200 text-lg mb-6 max-w-xl">Fedezd fel a legfinomabb ünnepi recepteket, a klasszikus halászlétől a repedésmentes bejgliig.</p>
-                <a href="#karacsony" class="bg-primary hover:bg-red-700 text-white font-bold py-3 px-8 rounded-full w-fit transition shadow-lg">Karácsonyi Receptek</a>
+                <p class="text-gray-200 text-lg mb-6 max-w-xl">Fedezd fel a legfinomabb ünnepi recepteket, a klasszikus
+                    halászlétől a repedésmentes bejgliig.</p>
+                <a href="#karacsony"
+                    class="bg-primary hover:bg-red-700 text-white font-bold py-3 px-8 rounded-full w-fit transition shadow-lg">Karácsonyi
+                    Receptek</a>
             </div>
         </div>
     </header>
@@ -75,12 +88,13 @@
             <h2 class="text-3xl font-bold text-primary">Karácsonyi Kedvencek</h2>
             <a href="#" class="text-secondary font-bold hover:underline">Összes megtekintése &rarr;</a>
         </div>
-        
+
         <div class="flex overflow-x-auto space-x-6 pb-4 hide-scrollbar snap-x">
             <!-- Card 1 -->
             <a href="recipe-template.html" class="min-w-[280px] md:min-w-[320px] snap-start recipe-card block group">
                 <div class="h-48 overflow-hidden">
-                    <img src="https://images.unsplash.com/photo-1607920592519-bab4d79134fb?q=80&w=1000&auto=format&fit=crop" alt="Bejgli" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+                    <img src="https://images.unsplash.com/photo-1607920592519-bab4d79134fb?q=80&w=1000&auto=format&fit=crop"
+                        alt="Bejgli" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
                 </div>
                 <div class="p-4">
                     <h3 class="text-xl font-bold mb-2 group-hover:text-primary transition">Repedésmentes Bejgli</h3>
@@ -94,7 +108,8 @@
             <!-- Card 2 -->
             <a href="#" class="min-w-[280px] md:min-w-[320px] snap-start recipe-card block group">
                 <div class="h-48 overflow-hidden">
-                    <img src="https://images.unsplash.com/photo-1578859387396-84f93299a36d?q=80&w=1000&auto=format&fit=crop" alt="Halászlé" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+                    <img src="https://images.unsplash.com/photo-1578859387396-84f93299a36d?q=80&w=1000&auto=format&fit=crop"
+                        alt="Halászlé" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
                 </div>
                 <div class="p-4">
                     <h3 class="text-xl font-bold mb-2 group-hover:text-primary transition">Klasszikus Halászlé</h3>
@@ -108,21 +123,26 @@
             <!-- Card 3 -->
             <a href="#" class="min-w-[280px] md:min-w-[320px] snap-start recipe-card block group">
                 <div class="h-48 overflow-hidden">
-                    <img src="https://images.unsplash.com/photo-1542285212-329e647cd701?q=80&w=1000&auto=format&fit=crop" alt="Töltött Káposzta" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+                    <img src="https://images.unsplash.com/photo-1542285212-329e647cd701?q=80&w=1000&auto=format&fit=crop"
+                        alt="Töltött Káposzta"
+                        class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
                 </div>
                 <div class="p-4">
-                    <h3 class="text-xl font-bold mb-2 group-hover:text-primary transition">Szabolcsi Töltött Káposzta</h3>
+                    <h3 class="text-xl font-bold mb-2 group-hover:text-primary transition">Szabolcsi Töltött Káposzta
+                    </h3>
                     <div class="flex items-center text-sm text-gray-500 space-x-4">
                         <span>⏱️ 150 perc</span>
                         <span>🔥 420 kcal</span>
                     </div>
                 </div>
             </a>
-            
-             <!-- Card 4 -->
+
+            <!-- Card 4 -->
             <a href="#" class="min-w-[280px] md:min-w-[320px] snap-start recipe-card block group">
                 <div class="h-48 overflow-hidden">
-                    <img src="https://images.unsplash.com/photo-1606312619070-d48b4c652a52?q=80&w=1000&auto=format&fit=crop" alt="Mézeskalács" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+                    <img src="https://images.unsplash.com/photo-1606312619070-d48b4c652a52?q=80&w=1000&auto=format&fit=crop"
+                        alt="Mézeskalács"
+                        class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
                 </div>
                 <div class="p-4">
                     <h3 class="text-xl font-bold mb-2 group-hover:text-primary transition">Puha Mézeskalács</h3>
@@ -149,12 +169,15 @@
             <!-- Recipe Card -->
             <article class="recipe-card group">
                 <div class="h-56 overflow-hidden relative">
-                    <img src="https://images.unsplash.com/photo-1563729768-6af7c46d6614?q=80&w=1000&auto=format&fit=crop" alt="Zserbó" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
-                    <span class="absolute top-3 left-3 bg-white/90 text-primary px-2 py-1 rounded text-xs font-bold uppercase tracking-wide">Sütemény</span>
+                    <img src="https://images.unsplash.com/photo-1563729768-6af7c46d6614?q=80&w=1000&auto=format&fit=crop"
+                        alt="Zserbó" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+                    <span
+                        class="absolute top-3 left-3 bg-white/90 text-primary px-2 py-1 rounded text-xs font-bold uppercase tracking-wide">Sütemény</span>
                 </div>
                 <div class="p-5">
                     <h3 class="text-2xl font-bold mb-3 group-hover:text-primary transition">Hagyományos Zserbó</h3>
-                    <p class="text-gray-600 mb-4 line-clamp-2">A nagymama receptje alapján készült omlós tészta, házi baracklekvárral és dióval töltve.</p>
+                    <p class="text-gray-600 mb-4 line-clamp-2">A nagymama receptje alapján készült omlós tészta, házi
+                        baracklekvárral és dióval töltve.</p>
                     <div class="flex justify-between items-center mt-4 pt-4 border-t border-gray-100">
                         <div class="flex items-center text-sm text-gray-500">
                             <span class="mr-4">⏱️ 80p</span>
@@ -164,16 +187,19 @@
                     </div>
                 </div>
             </article>
-            
+
             <!-- Placeholder for more cards -->
-             <article class="recipe-card group">
+            <article class="recipe-card group">
                 <div class="h-56 overflow-hidden relative">
-                    <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?q=80&w=1000&auto=format&fit=crop" alt="Saláta" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
-                    <span class="absolute top-3 left-3 bg-white/90 text-primary px-2 py-1 rounded text-xs font-bold uppercase tracking-wide">Egészséges</span>
+                    <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?q=80&w=1000&auto=format&fit=crop"
+                        alt="Saláta" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+                    <span
+                        class="absolute top-3 left-3 bg-white/90 text-primary px-2 py-1 rounded text-xs font-bold uppercase tracking-wide">Egészséges</span>
                 </div>
                 <div class="p-5">
                     <h3 class="text-2xl font-bold mb-3 group-hover:text-primary transition">Téli Vitamin Saláta</h3>
-                    <p class="text-gray-600 mb-4 line-clamp-2">Frissítő, ropogós saláta gránátalmával és dióval, tökéletes kísérő a nehéz ünnepi ételek mellé.</p>
+                    <p class="text-gray-600 mb-4 line-clamp-2">Frissítő, ropogós saláta gránátalmával és dióval,
+                        tökéletes kísérő a nehéz ünnepi ételek mellé.</p>
                     <div class="flex justify-between items-center mt-4 pt-4 border-t border-gray-100">
                         <div class="flex items-center text-sm text-gray-500">
                             <span class="mr-4">⏱️ 15p</span>
@@ -183,15 +209,19 @@
                     </div>
                 </div>
             </article>
-            
-             <article class="recipe-card group">
+
+            <article class="recipe-card group">
                 <div class="h-56 overflow-hidden relative">
-                    <img src="https://images.unsplash.com/photo-1576092762791-dd9e2220abd1?q=80&w=1000&auto=format&fit=crop" alt="Mézeskalács Ház" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
-                    <span class="absolute top-3 left-3 bg-white/90 text-primary px-2 py-1 rounded text-xs font-bold uppercase tracking-wide">Kreatív</span>
+                    <img src="https://images.unsplash.com/photo-1576092762791-dd9e2220abd1?q=80&w=1000&auto=format&fit=crop"
+                        alt="Mézeskalács Ház"
+                        class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+                    <span
+                        class="absolute top-3 left-3 bg-white/90 text-primary px-2 py-1 rounded text-xs font-bold uppercase tracking-wide">Kreatív</span>
                 </div>
                 <div class="p-5">
                     <h3 class="text-2xl font-bold mb-3 group-hover:text-primary transition">Mézeskalács Házikó</h3>
-                    <p class="text-gray-600 mb-4 line-clamp-2">Lépésről lépésre útmutató a tökéletes mézeskalács házikó elkészítéséhez és díszítéséhez.</p>
+                    <p class="text-gray-600 mb-4 line-clamp-2">Lépésről lépésre útmutató a tökéletes mézeskalács házikó
+                        elkészítéséhez és díszítéséhez.</p>
                     <div class="flex justify-between items-center mt-4 pt-4 border-t border-gray-100">
                         <div class="flex items-center text-sm text-gray-500">
                             <span class="mr-4">⏱️ 180p</span>
@@ -243,15 +273,19 @@
     </div>
 
     <!-- Cookie Consent (Simple Implementation) -->
-    <div id="cookie-consent" class="fixed bottom-24 left-4 right-4 md:left-8 md:right-auto md:max-w-md bg-white p-6 rounded-lg shadow-2xl z-50 border border-gray-200 hidden">
+    <div id="cookie-consent"
+        class="fixed bottom-24 left-4 right-4 md:left-8 md:right-auto md:max-w-md bg-white p-6 rounded-lg shadow-2xl z-50 border border-gray-200 hidden">
         <h4 class="font-bold text-lg mb-2">Sütiket használunk 🍪</h4>
-        <p class="text-gray-600 text-sm mb-4">A weboldal működéséhez és a felhasználói élmény javításához sütiket használunk. Az oldal használatával elfogadja az adatvédelmi irányelveinket.</p>
+        <p class="text-gray-600 text-sm mb-4">A weboldal működéséhez és a felhasználói élmény javításához sütiket
+            használunk. Az oldal használatával elfogadja az adatvédelmi irányelveinket.</p>
         <div class="flex space-x-3">
-            <button onclick="document.getElementById('cookie-consent').style.display='none'" class="bg-primary text-white px-4 py-2 rounded font-bold text-sm hover:bg-red-700 transition">Elfogadom</button>
-            <button onclick="document.getElementById('cookie-consent').style.display='none'" class="bg-gray-200 text-gray-800 px-4 py-2 rounded font-bold text-sm hover:bg-gray-300 transition">Bezárás</button>
+            <button onclick="document.getElementById('cookie-consent').style.display='none'"
+                class="bg-primary text-white px-4 py-2 rounded font-bold text-sm hover:bg-red-700 transition">Elfogadom</button>
+            <button onclick="document.getElementById('cookie-consent').style.display='none'"
+                class="bg-gray-200 text-gray-800 px-4 py-2 rounded font-bold text-sm hover:bg-gray-300 transition">Bezárás</button>
         </div>
     </div>
-    
+
     <script>
         // Simple check to show cookie banner if not accepted yet (mock logic)
         setTimeout(() => {
@@ -260,4 +294,5 @@
     </script>
 
 </body>
+
 </html>
