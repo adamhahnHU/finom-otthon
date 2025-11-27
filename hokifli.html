@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hókifli - FinomOtthon</title>
+    <meta name="description" content="Omlós, vaníliás porcukorba forgatott kiflik, dióval vagy mákkal töltve.">
+
+    <!-- Google AdSense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2559395778467751"
+        crossorigin="anonymous"></script>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#D32F2F',
+                        secondary: '#388E3C',
+                        background: '#FAFAFA',
+                        text: '#212121',
+                    },
+                    fontFamily: {
+                        sans: ['Lato', 'sans-serif'],
+                        serif: ['Playfair Display', 'serif'],
+                        inter: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- JSON-LD Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org/",
+      "@type": "Recipe",
+      "name": "Hókifli",
+      "image": ["https://example.com/image.jpg"],
+      "author": {
+        "@type": "Person",
+        "name": "Kovács Anna"
+      },
+      "datePublished": "2024-12-01",
+      "description": "Rövid leírás a receptről...",
+      "prepTime": "PT40M",
+      "cookTime": "PT15M",
+      "totalTime": "PT50M",
+      "keywords": "karácsony, sütemény, magyar",
+      "recipeYield": "4 adag",
+      "recipeCategory": "Dessert",
+      "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "380 kcal"
+      },
+      "recipeIngredient": [
+        "500g liszt",
+        "200g cukor",
+        "3 tojás"
+      ],
+      "recipeInstructions": [
+        {
+          "@type": "HowToStep",
+          "text": "Melegítsük elő a sütőt 180 fokra."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Keverjük össze a hozzávalókat."
+        }
+      ]
+    }
+    </script>
+</head>
+
+<body class="bg-background text-text flex flex-col min-h-screen">
+
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md sticky top-0 z-40">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-serif font-bold text-primary">FinomOtthon</a>
+            <div class="hidden md:flex space-x-6 font-medium">
+                <a href="#" class="hover:text-primary transition">Karácsony</a>
+                <a href="#" class="hover:text-primary transition">Sütemények</a>
+                <a href="#" class="hover:text-primary transition">Főételek</a>
+                <a href="#" class="hover:text-primary transition">Levesek</a>
+            </div>
+            <button class="md:hidden text-2xl text-primary">
+                &#9776;
+            </button>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-4 py-8 flex flex-col lg:flex-row gap-8">
+
+        <!-- Left Column: Content -->
+        <article class="lg:w-2/3">
+
+            <!-- Breadcrumbs -->
+            <nav class="text-sm text-gray-500 mb-4">
+                <a href="index.html" class="hover:text-primary">Főoldal</a> &rsaquo;
+                <a href="#" class="hover:text-primary">Kategória</a> &rsaquo;
+                <span class="text-gray-800">Hókifli</span>
+            </nav>
+
+            <!-- Title & Meta -->
+            <h1 class="text-4xl font-serif font-bold mb-4 text-gray-900">A Legfinomabb Karácsonyi Hókifli</h1>
+            <div class="flex items-center text-gray-600 text-sm mb-6 space-x-4">
+                <span>👤 Kovács Anna</span>
+                <span>📅 2024. Dec 01.</span>
+                <span>⭐ 4.9 (120 értékelés)</span>
+            </div>
+
+            <!-- Ad Slot: Below Title -->
+            <div class="ad-slot mb-8">
+                <!-- Ad Placeholder -->
+            </div>
+
+            <!-- Hero Image -->
+            <img src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?q=80&w=1000&auto=format&fit=crop"
+                alt="Recept kép" class="w-full h-[400px] object-cover rounded-xl shadow-lg mb-8">
+
+            <!-- Jump to Recipe Button -->
+            <div class="text-center mb-8">
+                <a href="#recept-kartya"
+                    class="bg-primary hover:bg-red-700 text-white font-bold py-3 px-8 rounded-full shadow-lg transition inline-block transform hover:scale-105">
+                    Ugrás a Recepthez 👇
+                </a>
+            </div>
+
+            <!-- Personal Intro (SEO Gold) -->
+            <div class="prose max-w-none text-gray-700 mb-8 leading-relaxed">
+                <p class="mb-4">
+                    Ez a recept különleges helyet foglal el a szívemben. Emlékszem, amikor nagymamám először készítette
+                    el nekünk karácsonykor... [Ide jön a 150 szavas személyes bevezető, amit a Google szeret. Fontos,
+                    hogy természetesnek és személyesnek hasson.]
+                </p>
+                <p>
+                    A titok nyitja a minőségi alapanyagokban és a türelemben rejlik. Ne siessük el a folyamatot, hiszen
+                    az ünnepi készülődés lényege az öröm és a ráhangolódás.
+                </p>
+            </div>
+
+            <!-- Ad Slot: After 1st Paragraph (simulated placement) -->
+            <div class="ad-slot mb-8">
+                <!-- Ad Placeholder -->
+            </div>
+
+            <!-- Recipe Card -->
+            <div id="recept-kartya" class="bg-white rounded-2xl shadow-xl border border-gray-100 overflow-hidden mb-12">
+                <div class="bg-primary/5 p-6 border-b border-primary/10">
+                    <h2 class="text-2xl font-serif font-bold text-primary mb-4">Recept Elkészítése</h2>
+                    <div class="flex flex-wrap gap-4 text-sm font-bold text-gray-700">
+                        <div class="bg-white px-4 py-2 rounded-lg shadow-sm border border-gray-100 flex items-center">
+                            <span class="mr-2">⏱️</span> Előkészület: 20p
+                        </div>
+                        <div class="bg-white px-4 py-2 rounded-lg shadow-sm border border-gray-100 flex items-center">
+                            <span class="mr-2">🍳</span> Sütés/Főzés: 30p
+                        </div>
+                        <div class="bg-white px-4 py-2 rounded-lg shadow-sm border border-gray-100 flex items-center">
+                            <span class="mr-2">🍽️</span> Adag: 4 fő
+                        </div>
+                        <div class="bg-white px-4 py-2 rounded-lg shadow-sm border border-gray-100 flex items-center">
+                            <span class="mr-2">🔥</span> Kalória: 380 kcal
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p-6 md:p-8">
+                    <!-- Ingredients -->
+                    <div class="mb-8">
+                        <h3 class="text-xl font-bold mb-4 flex items-center">
+                            <span
+                                class="bg-secondary text-white w-8 h-8 rounded-full flex items-center justify-center text-sm mr-3">1</span>
+                            Hozzávalók
+                        </h3>
+                        <ul class="space-y-3">
+<li class="flex items-start"><input type="checkbox" class="mt-1.5 mr-3 accent-primary w-5 h-5"><span>400g Liszt</span></li>
+<li class="flex items-start"><input type="checkbox" class="mt-1.5 mr-3 accent-primary w-5 h-5"><span>200g Zsír vagy Vaj</span></li>
+<li class="flex items-start"><input type="checkbox" class="mt-1.5 mr-3 accent-primary w-5 h-5"><span>1 dl Tejföl</span></li>
+<li class="flex items-start"><input type="checkbox" class="mt-1.5 mr-3 accent-primary w-5 h-5"><span>Darált dió/mák</span></li>
+<li class="flex items-start"><input type="checkbox" class="mt-1.5 mr-3 accent-primary w-5 h-5"><span>Vaníliás porcukor</span></li>
+</ul>
+                    </div>
+
+                    <!-- Ad Slot: Before Instructions (Optional but high RPM) -->
+                    <div class="ad-slot mb-8">
+                        <!-- Ad Placeholder -->
+                    </div>
+
+                    <!-- Instructions -->
+                    <div>
+                        <h3 class="text-xl font-bold mb-4 flex items-center">
+                            <span
+                                class="bg-secondary text-white w-8 h-8 rounded-full flex items-center justify-center text-sm mr-3">2</span>
+                            Elkészítés Lépésről Lépésre
+                        </h3>
+                        <div class="space-y-6">
+<div class="flex"><div class="font-bold text-primary text-lg mr-4">1.</div><p class="text-gray-700">A tésztát összegyúrjuk.</p></div>
+<div class="flex"><div class="font-bold text-primary text-lg mr-4">2.</div><p class="text-gray-700">Kis gombócokat formázunk, kinyújtjuk.</p></div>
+<div class="flex"><div class="font-bold text-primary text-lg mr-4">3.</div><p class="text-gray-700">Megtöltjük, kifli alakúra formázzuk.</p></div>
+<div class="flex"><div class="font-bold text-primary text-lg mr-4">4.</div><p class="text-gray-700">Világosra sütjük.</p></div>
+<div class="flex"><div class="font-bold text-primary text-lg mr-4">5.</div><p class="text-gray-700">Még melegen vaníliás porcukorba forgatjuk.</p></div>
+</div>
+                                <p class="text-gray-700">Melegítsük elő a sütőt 180 fokra (légkeverésen 160 fok).
+                                    Béleljünk ki egy tepsit sütőpapírral.</p>
+                            </div>
+                            <div class="flex">
+                                <div class="font-bold text-primary text-lg mr-4">2.</div>
+                                <p class="text-gray-700">Egy nagy tálban keverjük habosra a tojásokat a cukorral, amíg a
+                                    térfogata megduplázódik és kivilágosodik.</p>
+                            </div>
+                            <div class="flex">
+                                <div class="font-bold text-primary text-lg mr-4">3.</div>
+                                <p class="text-gray-700">Adjuk hozzá a lisztet és a többi száraz hozzávalót, majd
+                                    óvatosan forgassuk össze.</p>
+                            </div>
+                            <div class="flex">
+                                <div class="font-bold text-primary text-lg mr-4">4.</div>
+                                <p class="text-gray-700">Süssük 30 percig, vagy amíg tűpróbával ellenőrizve tisztán nem
+                                    jön ki a tű.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Print & Share -->
+                <div class="bg-gray-50 p-4 border-t border-gray-100 flex justify-center space-x-4">
+                    <button class="flex items-center text-gray-600 hover:text-primary font-bold">
+                        🖨️ Nyomtatás
+                    </button>
+                    <button class="flex items-center text-gray-600 hover:text-primary font-bold">
+                        📌 Mentés
+                    </button>
+                </div>
+            </div>
+
+            <!-- Author Bio -->
+            <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 flex items-center space-x-6 mb-12">
+                <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=200&auto=format&fit=crop"
+                    alt="Szerző" class="w-20 h-20 rounded-full object-cover border-2 border-primary">
+                <div>
+                    <h4 class="font-bold text-lg mb-1">Kovács Anna</h4>
+                    <p class="text-gray-600 text-sm mb-2">Gasztronómiai újságíró és hobbi cukrász. Imádom a hagyományos
+                        magyar ízeket modern köntösbe öltöztetni.</p>
+                    <a href="#" class="text-secondary text-sm font-bold hover:underline">További receptek Annától
+                        &rarr;</a>
+                </div>
+            </div>
+
+            <!-- Comments / Reviews (Placeholder) -->
+            <div class="mb-12">
+                <h3 class="text-2xl font-bold mb-6">Vélemények</h3>
+                <div class="bg-gray-50 p-6 rounded-lg text-center">
+                    <p class="text-gray-500">Még nem érkezett vélemény. Legyél te az első!</p>
+                    <button class="mt-4 bg-white border border-gray-300 px-4 py-2 rounded hover:bg-gray-100">Vélemény
+                        írása</button>
+                </div>
+            </div>
+
+        </article>
+
+        <!-- Right Sidebar -->
+        <aside class="lg:w-1/3 space-y-8">
+
+            <!-- Sidebar Ad -->
+            <div class="ad-slot" style="height: 250px;">
+                <!-- Sidebar Ad Placeholder -->
+            </div>
+
+            <!-- Popular Recipes Widget -->
+            <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
+                <h3 class="font-bold text-lg mb-4 border-b pb-2">Népszerű Most</h3>
+                <ul class="space-y-4">
+                    <li class="flex space-x-4 items-center group cursor-pointer">
+                        <img src="https://images.unsplash.com/photo-1607920592519-bab4d79134fb?q=80&w=200&auto=format&fit=crop"
+                            class="w-16 h-16 rounded-lg object-cover group-hover:opacity-80 transition">
+                        <div>
+                            <h4 class="font-bold text-sm group-hover:text-primary transition">Repedésmentes Bejgli</h4>
+                            <span class="text-xs text-gray-500">⭐ 4.9</span>
+                        </div>
+                    </li>
+                    <li class="flex space-x-4 items-center group cursor-pointer">
+                        <img src="https://images.unsplash.com/photo-1578859387396-84f93299a36d?q=80&w=200&auto=format&fit=crop"
+                            class="w-16 h-16 rounded-lg object-cover group-hover:opacity-80 transition">
+                        <div>
+                            <h4 class="font-bold text-sm group-hover:text-primary transition">Klasszikus Halászlé</h4>
+                            <span class="text-xs text-gray-500">⭐ 4.8</span>
+                        </div>
+                    </li>
+                    <li class="flex space-x-4 items-center group cursor-pointer">
+                        <img src="https://images.unsplash.com/photo-1606312619070-d48b4c652a52?q=80&w=200&auto=format&fit=crop"
+                            class="w-16 h-16 rounded-lg object-cover group-hover:opacity-80 transition">
+                        <div>
+                            <h4 class="font-bold text-sm group-hover:text-primary transition">Puha Mézeskalács</h4>
+                            <span class="text-xs text-gray-500">⭐ 5.0</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Sidebar Ad 2 -->
+            <div class="ad-slot" style="height: 600px;">
+                <!-- Tall Sidebar Ad Placeholder -->
+            </div>
+
+        </aside>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12 mt-auto mb-16">
+        <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div>
+                <h3 class="text-2xl font-serif font-bold mb-4">FinomOtthon</h3>
+                <p class="text-gray-400">A legjobb magyar receptek, szeretettel készítve az Ön konyhájába.</p>
+            </div>
+            <div>
+                <h4 class="font-bold mb-4 text-lg">Kategóriák</h4>
+                <ul class="space-y-2 text-gray-400">
+                    <li><a href="#" class="hover:text-white transition">Karácsony</a></li>
+                    <li><a href="#" class="hover:text-white transition">Sütemények</a></li>
+                    <li><a href="#" class="hover:text-white transition">Főételek</a></li>
+                    <li><a href="#" class="hover:text-white transition">Levesek</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="font-bold mb-4 text-lg">Információk</h4>
+                <ul class="space-y-2 text-gray-400">
+                    <li><a href="#" class="hover:text-white transition">Rólunk</a></li>
+                    <li><a href="#" class="hover:text-white transition">Kapcsolat</a></li>
+                    <li><a href="#" class="hover:text-white transition">Adatvédelmi Irányelvek</a></li>
+                    <li><a href="#" class="hover:text-white transition">Süti Kezelés</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container mx-auto px-4 mt-8 pt-8 border-t border-gray-800 text-center text-gray-500 text-sm">
+            &copy; 2024 FinomOtthon. Minden jog fenntartva.
+        </div>
+    </footer>
+
+    <!-- Sticky Footer Ad -->
+    <div class="sticky-footer-ad">
+        <div class="ad-slot" style="max-width: 728px; height: 90px; margin: 0;">
+            <!-- Sticky Ad Placeholder -->
+        </div>
+    </div>
+
+    <!-- Cookie Consent (Simple Implementation) -->
+    <div id="cookie-consent"
+        class="fixed bottom-24 left-4 right-4 md:left-8 md:right-auto md:max-w-md bg-white p-6 rounded-lg shadow-2xl z-50 border border-gray-200 hidden">
+        <h4 class="font-bold text-lg mb-2">Sütiket használunk 🍪</h4>
+        <p class="text-gray-600 text-sm mb-4">A weboldal működéséhez és a felhasználói élmény javításához sütiket
+            használunk. Az oldal használatával elfogadja az adatvédelmi irányelveinket.</p>
+        <div class="flex space-x-3">
+            <button onclick="document.getElementById('cookie-consent').style.display='none'"
+                class="bg-primary text-white px-4 py-2 rounded font-bold text-sm hover:bg-red-700 transition">Elfogadom</button>
+            <button onclick="document.getElementById('cookie-consent').style.display='none'"
+                class="bg-gray-200 text-gray-800 px-4 py-2 rounded font-bold text-sm hover:bg-gray-300 transition">Bezárás</button>
+        </div>
+    </div>
+
+    <script>
+        setTimeout(() => {
+            document.getElementById('cookie-consent').classList.remove('hidden');
+        }, 1000);
+    </script>
+
+</body>
+
+</html>

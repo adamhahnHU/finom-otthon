@@ -30,4 +30,55 @@
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
+  <!-- Recipes -->
+  <url><loc>https://finomotthon.hu/bajai-halaszle.html</loc><priority>0.8</priority></url>
+  <url><loc>https://finomotthon.hu/makos-bejgli.html</loc><priority>0.8</priority></url>
+  <url><loc>https://finomotthon.hu/dios-bejgli.html</loc><priority>0.8</priority></url>
+  <url><loc>https://finomotthon.hu/toltott-kaposzta.html</loc><priority>0.8</priority></url>
+  <url><loc>https://finomotthon.hu/zserbo.html</loc><priority>0.8</priority></url>
+  <url><loc>https://finomotthon.hu/mezeskalacs.html</loc><priority>0.8</priority></url>
+  <url><loc>https://finomotthon.hu/hokifli.html</loc><priority>0.8</priority></url>
+  <url><loc>https://finomotthon.hu/kokuszgolyo.html</loc><priority>0.8</priority></url>
+  <url><loc>https://finomotthon.hu/lencseleves.html</loc><priority>0.8</priority></url>
+  <url><loc>https://finomotthon.hu/kocsonya.html</loc><priority>0.8</priority></url>
+  <url><loc>https://finomotthon.hu/makos-guba.html</loc><priority>0.8</priority></url>
+  <url><loc>https://finomotthon.hu/somloi-galuska.html</loc><priority>0.8</priority></url>
+  <url><loc>https://finomotthon.hu/eszterhazy-torta.html</loc><priority>0.8</priority></url>
+  <url><loc>https://finomotthon.hu/dobos-torta.html</loc><priority>0.8</priority></url>
+  <url><loc>https://finomotthon.hu/rakoczi-turos.html</loc><priority>0.8</priority></url>
+  <url><loc>https://finomotthon.hu/kepviselofank.html</loc><priority>0.8</priority></url>
+  <url><loc>https://finomotthon.hu/ekler-fank.html</loc><priority>0.8</priority></url>
+  <url><loc>https://finomotthon.hu/ludlab-torta.html</loc><priority>0.8</priority></url>
+  <url><loc>https://finomotthon.hu/puncstorta.html</loc><priority>0.8</priority></url>
+  <url><loc>https://finomotthon.hu/kossuth-kifli.html</loc><priority>0.8</priority></url>
+  <url><loc>https://finomotthon.hu/pozsonyi-kifli.html</loc><priority>0.8</priority></url>
+  <url><loc>https://finomotthon.hu/flodni.html</loc><priority>0.8</priority></url>
+  <url><loc>https://finomotthon.hu/linzer-karika.html</loc><priority>0.8</priority></url>
+  <url><loc>https://finomotthon.hu/isler.html</loc><priority>0.8</priority></url>
+  <url><loc>https://finomotthon.hu/non-plus-ultra.html</loc><priority>0.8</priority></url>
+  <url><loc>https://finomotthon.hu/hartyani-kremes.html</loc><priority>0.8</priority></url>
+  <url><loc>https://finomotthon.hu/kremes.html</loc><priority>0.8</priority></url>
+  <url><loc>https://finomotthon.hu/rigojancsi.html</loc><priority>0.8</priority></url>
+  <url><loc>https://finomotthon.hu/gesztenyepure.html</loc><priority>0.8</priority></url>
+  <url><loc>https://finomotthon.hu/madartej.html</loc><priority>0.8</priority></url>
+  <url><loc>https://finomotthon.hu/tejberizs.html</loc><priority>0.8</priority></url>
+  <url><loc>https://finomotthon.hu/aranygaluska.html</loc><priority>0.8</priority></url>
+  <url><loc>https://finomotthon.hu/turogomboc.html</loc><priority>0.8</priority></url>
+  <url><loc>https://finomotthon.hu/szilvas-gomboc.html</loc><priority>0.8</priority></url>
+  <url><loc>https://finomotthon.hu/csoroge-fank.html</loc><priority>0.8</priority></url>
+  <url><loc>https://finomotthon.hu/szalagos-fank.html</loc><priority>0.8</priority></url>
+  <url><loc>https://finomotthon.hu/kurtoskalacs.html</loc><priority>0.8</priority></url>
+  <url><loc>https://finomotthon.hu/sajtos-pogacsa.html</loc><priority>0.8</priority></url>
+  <url><loc>https://finomotthon.hu/tepertos-pogacsa.html</loc><priority>0.8</priority></url>
+  <url><loc>https://finomotthon.hu/sos-rudacska.html</loc><priority>0.8</priority></url>
+  <url><loc>https://finomotthon.hu/sajtos-rolo.html</loc><priority>0.8</priority></url>
+  <url><loc>https://finomotthon.hu/kazinotojas.html</loc><priority>0.8</priority></url>
+  <url><loc>https://finomotthon.hu/tormas-sonkatekercs.html</loc><priority>0.8</priority></url>
+  <url><loc>https://finomotthon.hu/franciasalata.html</loc><priority>0.8</priority></url>
+  <url><loc>https://finomotthon.hu/majonezes-krumplisalata.html</loc><priority>0.8</priority></url>
+  <url><loc>https://finomotthon.hu/rantott-ponty.html</loc><priority>0.8</priority></url>
+  <url><loc>https://finomotthon.hu/harcsapaprikas.html</loc><priority>0.8</priority></url>
+  <url><loc>https://finomotthon.hu/turos-csusza.html</loc><priority>0.8</priority></url>
+  <url><loc>https://finomotthon.hu/vadas-marha.html</loc><priority>0.8</priority></url>
+  <url><loc>https://finomotthon.hu/stefania-vagdalt.html</loc><priority>0.8</priority></url>
 </urlset>
